@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H5应用场景</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/h5index.css">
+</head>
+<body>
+<!--arrow-->
+<div class="arrow"></div>
+
+<!--music-->
+<div class="music" id="musicBox"></div>
+
+<!--autoplay自动播放  preload预加载-->
+<audio id="musicAudio" src="audio/beyond.mp3" loop preload="none"></audio>
+
+<!--swiper-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--第一屏-->
+        <div class="swiper-slide page01" id="page01">
+            <img src="images/page1-text1.png" alt="">
+            <img src="images/page1-text2.png" alt="">
+            <img src="images/page1-text3.png" alt="">
+            <img src="images/page1-text4.png" alt="">
+        </div>
+        <!--第二屏-->
+        <div class="swiper-slide page02" id="page02">
+            <img src="images/page2-text1.png" alt="">
+            <img src="images/page2-text2.png" alt="">
+            <img src="images/page2-text3.png" alt="">
+            <img src="images/page2-text4.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/swiper.min.js"></script>
+<!--处理移动端点击事件产生的300ms延迟的问题-->
+<script src="js/fastclick.min.js"></script>
+<script src="js/h5index.js"></script>
+</body>
+</html>
